@@ -1,0 +1,64 @@
+.header2 {
+    width: 165px;
+    background: #1e2939;
+    color: wheat;
+    text-align: center;
+    position: fixed;
+}
+
+nav.menu {
+    display: grid;
+    padding: 5px;
+    padding-top: 50px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #1e2939;
+    text-align: center;
+    width: 161px;
+    position: fixed;
+}
+
+nav#navbar {
+    grid-area: navbar;
+    position: fixed;   
+}
+
+nav.menu a{
+    border: 2px dotted #1e2939;
+    padding: 5px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #1e2939;
+    text-align: center;
+}
+
+.contact-block {
+    padding-top: 400px;
+    color: wheat;
+    font-size: 14px;
+    position: fixed;
+}
+
+nav.contact-links {
+    color: #1e2939;
+    width: 145px;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: left;
+}
+
+span.bold {
+    color: #1e2939;
+}
+
+main#main-doc {
+    margin-left: 200px;
+    grid-area: mainContent;
+    width: auto;
+    text-align: justify;
+}
+   
+header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
